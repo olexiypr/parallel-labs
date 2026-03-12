@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelLabs", "ParallelLabs\ParallelLabs.csproj", "{44F2CBCC-4861-4D41-99CE-D0C7913E2C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba1", "Laba1\Laba1.csproj", "{FD3012CD-A7C3-41FC-A900-3DFFDEEF23D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba2", "Laba2\Laba2.csproj", "{286202A6-D796-4EF5-97C1-279FC8620308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F2CBCC-4861-4D41-99CE-D0C7913E2C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F2CBCC-4861-4D41-99CE-D0C7913E2C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F2CBCC-4861-4D41-99CE-D0C7913E2C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F2CBCC-4861-4D41-99CE-D0C7913E2C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3012CD-A7C3-41FC-A900-3DFFDEEF23D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3012CD-A7C3-41FC-A900-3DFFDEEF23D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3012CD-A7C3-41FC-A900-3DFFDEEF23D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3012CD-A7C3-41FC-A900-3DFFDEEF23D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286202A6-D796-4EF5-97C1-279FC8620308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286202A6-D796-4EF5-97C1-279FC8620308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286202A6-D796-4EF5-97C1-279FC8620308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286202A6-D796-4EF5-97C1-279FC8620308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
