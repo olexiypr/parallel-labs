@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba1", "Laba1\Laba1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba2", "Laba2\Laba2.csproj", "{286202A6-D796-4EF5-97C1-279FC8620308}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba3", "Laba3\Laba3.csproj", "{9B738FE0-1ACD-4034-9C44-D31F8D634E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba3Receiver", "Laba3Receiver\Laba3Receiver.csproj", "{FA5F4911-9712-4E04-838D-5F03C9AABE99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{286202A6-D796-4EF5-97C1-279FC8620308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{286202A6-D796-4EF5-97C1-279FC8620308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{286202A6-D796-4EF5-97C1-279FC8620308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B738FE0-1ACD-4034-9C44-D31F8D634E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B738FE0-1ACD-4034-9C44-D31F8D634E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B738FE0-1ACD-4034-9C44-D31F8D634E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B738FE0-1ACD-4034-9C44-D31F8D634E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5F4911-9712-4E04-838D-5F03C9AABE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5F4911-9712-4E04-838D-5F03C9AABE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5F4911-9712-4E04-838D-5F03C9AABE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5F4911-9712-4E04-838D-5F03C9AABE99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -24,28 +24,15 @@ public class MonteKarlo(int threadsCount) : BaseTask(threadsCount)
                 try
                 {
                     int dotsInCircle = 0;
-                    var batch = new List<(double x, double y)>(BatchSize);
-
+                    var random = new Random();
                     for (int i = 0; i < input / ThreadsCount; i++)
                     {
-                        var point = GenerateRandomPoint();
-                        batch.Add(point);
-
-                        if (batch.Count >= BatchSize)
-                        {
-                            EnqueueBatch(batch);
-                            batch = new List<(double x, double y)>(BatchSize);
-                        }
+                        var point = GenerateRandomPoint(random);
 
                         if (IsInCircle(point))
                         {
                             dotsInCircle++;
                         }
-                    }
-
-                    if (batch.Count > 0)
-                    {
-                        EnqueueBatch(batch);
                     }
 
                     result[currIndex] = dotsInCircle;
@@ -68,10 +55,10 @@ public class MonteKarlo(int threadsCount) : BaseTask(threadsCount)
         return sum * 4;
     }
     
-    private (double, double) GenerateRandomPoint()
+    private (double, double) GenerateRandomPoint(Random random)
     {
-        var x = _random.NextDouble();
-        var y = _random.NextDouble();
+        var x = random.NextDouble();
+        var y = random.NextDouble();
         return (x, y);
     }
 

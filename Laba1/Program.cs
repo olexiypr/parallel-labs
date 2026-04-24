@@ -5,12 +5,13 @@ using Laba1.IOBound;
 using Laba1.MemoryBound;
 
 /*var cpuBound = new CPUBound();
-cpuBound.TestFactorization();*/
+cpuBound.TestMonteKarlo();*/
+//cpuBound.TestSimpleNumbersCalculation();
+//cpuBound.TestSimpleNumbersCalculation();
 
-/*var memoryBound = new MemoryBound();
-memoryBound.TestTranspose();*/
+var memoryBound = new MemoryBound();
+memoryBound.TestTranspose();
 
-//Directory.Delete("Files", true);
 
-var ioBound = new IOBound();
-ioBound.TestWordsCalculation();
+/*var ioBound = new IOBound();
+ioBound.TestWordsCalculation();*/
